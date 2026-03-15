@@ -2,6 +2,28 @@
 ### (https://colab.research.google.com/drive/10GlmB1Uf1QHr4bbdAaruVAamQXKPXjC8?usp=sharing)
 
 ---
+# 🎯 Learning Objectives (My Explanation)
+
+### 1. Explain the fundamentals of image classification using deep learning
+*I learned that deep learning models, especially **Convolutional Neural Networks (CNNs)**, can automatically detect patterns in images and classify them into categories without manually defining the features.*
+
+### 2. Prepare and organize a custom image dataset stored in Google Drive
+*I organized my dataset into **labeled folders for each crop class**, allowing TensorFlow to easily load and understand the dataset during training.*
+
+### 3. Load and preprocess images for model training in TensorFlow/Keras
+*Using TensorFlow/Keras, I loaded the dataset, resized the images, normalized pixel values, and prepared them in batches so the model could process them efficiently during training.*
+
+### 4. Train and evaluate a Convolutional Neural Network (CNN) using personal images
+*I built a CNN model, trained it using my own dataset, and evaluated its performance using validation data to measure how well it could classify unseen images.*
+
+### 5. Interpret model accuracy and loss metrics
+*By examining the **training accuracy, validation accuracy, and loss values**, I was able to evaluate how effectively the model learned from the dataset and detect possible overfitting.*
+
+### 6. Reflect on dataset quality and its impact on model performance
+*Through this project, I realized that the **quality, balance, and size of the dataset directly influence the model’s accuracy and reliability**.*
+
+---
+
 
 
 ## 📝 Guide Questions (Student Reflection & Explanation)
@@ -54,28 +76,31 @@
 *The trained model can be deployed in a **mobile or web application** where users upload or capture a crop image. The system processes the image and predicts the crop type automatically. This can be implemented using **TensorFlow Lite for mobile apps** or **Flask/Django for web applications**.*
 
 ---
+# 🌾 Enhancing Model Performance: Visualization, Overfitting Control, Data Augmentation, and Model Deployment
 
-# 🎯 Learning Objectives (My Explanation)
+## 🎯 Learning Outcomes
 
-### 1. Explain the fundamentals of image classification using deep learning
-*I learned that deep learning models, especially **Convolutional Neural Networks (CNNs)**, can automatically detect patterns in images and classify them into categories without manually defining the features.*
+By the end of this activity, students will be able to:
 
-### 2. Prepare and organize a custom image dataset stored in Google Drive
-*I organized my dataset into **labeled folders for each crop class**, allowing TensorFlow to easily load and understand the dataset during training.*
+1. **Visualize training and validation performance using graphs.**  
+*I learned how to plot training and validation accuracy and loss for cereal crop images, which helped me understand how the model was learning and identify any issues during training.*
 
-### 3. Load and preprocess images for model training in TensorFlow/Keras
-*Using TensorFlow/Keras, I loaded the dataset, resized the images, normalized pixel values, and prepared them in batches so the model could process them efficiently during training.*
+2. **Explain overfitting and identify its signs in training results.**  
+*I can recognize overfitting when the training accuracy is very high but validation accuracy is lower or unstable, showing the model memorizes the training data instead of generalizing.*
 
-### 4. Train and evaluate a Convolutional Neural Network (CNN) using personal images
-*I built a CNN model, trained it using my own dataset, and evaluated its performance using validation data to measure how well it could classify unseen images.*
+3. **Apply data augmentation to improve model generalization.**  
+*I used techniques like rotation, flipping, and zooming to create more variations of cereal crop images, which helped the model classify new images more accurately.*
 
-### 5. Interpret model accuracy and loss metrics
-*By examining the **training accuracy, validation accuracy, and loss values**, I was able to evaluate how effectively the model learned from the dataset and detect possible overfitting.*
+4. **Implement dropout to reduce overfitting.**  
+*I added dropout layers to randomly deactivate neurons during training, which forced the model to learn more robust features and reduced overfitting.*
 
-### 6. Reflect on dataset quality and its impact on model performance
-*Through this project, I realized that the **quality, balance, and size of the dataset directly influence the model’s accuracy and reliability**.*
+5. **Retrain and evaluate an improved CNN model.**  
+*I retrained the CNN using augmented data and dropout, then evaluated its performance to achieve better validation accuracy and generalization.*
 
+6. **Predict classes on new images using the trained model.**  
+*I can now use the trained model to classify new cereal crop images, making it ready for practical applications such as agriculture monitoring or educational tools.*
 ---
+
 
 # 🔍 Guide Questions (My Reflection)
 
