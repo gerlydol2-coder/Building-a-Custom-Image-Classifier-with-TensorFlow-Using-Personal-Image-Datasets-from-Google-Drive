@@ -2,7 +2,7 @@
 ### (https://colab.research.google.com/drive/10GlmB1Uf1QHr4bbdAaruVAamQXKPXjC8?usp=sharing)
 
 ---
-# 🎯 Learning Objectives (My Explanation)
+## 🎯 Learning Objectives (My Explanation)
 
 ### 1. Explain the fundamentals of image classification using deep learning
 *I learned that deep learning models, especially **Convolutional Neural Networks (CNNs)**, can automatically detect patterns in images and classify them into categories without manually defining the features.*
