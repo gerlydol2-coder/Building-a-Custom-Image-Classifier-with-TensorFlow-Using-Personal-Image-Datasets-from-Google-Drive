@@ -31,7 +31,7 @@
 *The model achieved **100% training accuracy** and approximately **99.3% validation accuracy**, indicating that it successfully learned the patterns in the training images while still performing well on unseen data.*
 
 ### ○ How did the number of images affect the model’s performance?
-*Having a large dataset—around **1,000 images per class**—significantly improved the model’s performance. More images provided more examples for the model to learn from, resulting in **better accuracy and stronger generalization**.*
+*Having a large dataset— minimum of **250 images per class**—significantly improved the model’s performance. More images provided more examples for the model to learn from, resulting in **better accuracy and stronger generalization**.*
 
 ---
 
