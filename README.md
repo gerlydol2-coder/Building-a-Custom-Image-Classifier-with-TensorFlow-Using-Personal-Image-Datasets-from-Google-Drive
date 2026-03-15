@@ -1,13 +1,10 @@
 # Building-a-Custom-Image-Classifier-with-TensorFlow-Using-Personal-Image-Datasets-from-Google-Drive
 ### (https://colab.research.google.com/drive/10GlmB1Uf1QHr4bbdAaruVAamQXKPXjC8?usp=sharing)
 
-
+---
 
 
 ## 📝 Guide Questions (Student Reflection & Explanation)
-
----
-
 ## 1. Dataset Preparation
 
 ### ○ How did you organize your dataset in Google Drive?
