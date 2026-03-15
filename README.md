@@ -2,7 +2,7 @@
 ### (https://colab.research.google.com/drive/10GlmB1Uf1QHr4bbdAaruVAamQXKPXjC8?usp=sharing)
 
 
-# Image Classification of Cereal Crops using TensorFlow
+
 
 ## 📝 Guide Questions (Student Reflection & Explanation)
 
