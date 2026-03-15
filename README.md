@@ -76,11 +76,9 @@
 *The trained model can be deployed in a **mobile or web application** where users upload or capture a crop image. The system processes the image and predicts the crop type automatically. This can be implemented using **TensorFlow Lite for mobile apps** or **Flask/Django for web applications**.*
 
 ---
-# 🌾 Enhancing Model Performance: Visualization, Overfitting Control, Data Augmentation, and Model Deployment
+## 🌾 Enhancing Model Performance: Visualization, Overfitting Control, Data Augmentation, and Model Deployment
 
-## 🎯 Learning Outcomes
-
-By the end of this activity, students will be able to:
+### 🎯 Learning Outcomes
 
 1. **Visualize training and validation performance using graphs.**  
 *I learned how to plot training and validation accuracy and loss for cereal crop images, which helped me understand how the model was learning and identify any issues during training.*
