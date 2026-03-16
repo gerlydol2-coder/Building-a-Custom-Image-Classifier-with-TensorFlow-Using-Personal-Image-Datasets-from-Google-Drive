@@ -129,3 +129,6 @@
 
 ### 6. Which technique contributed most to improvement?
 *Among the techniques applied, **data augmentation contributed the most**, because it increased the diversity of the training images and helped the model learn more flexible patterns.*
+ 
+## Uploaded 
+###  https://drive.google.com/file/d/1QJ-OpnvjXbn8gvsqAqeF7QbEq_avQebD/view?usp=drive_link
